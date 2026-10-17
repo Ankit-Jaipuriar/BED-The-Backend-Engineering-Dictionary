@@ -304,5 +304,257 @@ const terms = [
     definition: "Saving related data changes as one unit so that all changes succeed together or none are saved.",
     example: "A money transfer must deduct from one account and add to another as a single operation.",
     related: ["Transaction", "Database"]
+  },
+  {
+    term: "Algorithm",
+    group: "Al",
+    pronunciation: "/ˈæl.ɡə.rɪ.ðəm/",
+    type: "noun",
+    definition: "A defined sequence of steps used to solve a problem or complete a task.",
+    example: "A navigation app uses an algorithm to find the fastest route between two places.",
+    related: ["Data Structure", "Performance"]
+  },
+  {
+    term: "Application Context",
+    group: "Ap",
+    pronunciation: "/ˌæp.lɪˈkeɪ.ʃən ˈkɒn.tekst/",
+    type: "noun",
+    definition: "A framework-managed environment that creates, configures, and connects application components.",
+    example: "An application context can create a service and provide it with its required database connection.",
+    related: ["Bean", "Dependency Injection"]
+  },
+  {
+    term: "Avro",
+    group: "Av",
+    pronunciation: "/ˈæv.roʊ/",
+    type: "noun",
+    definition: "A compact data format and schema system used to exchange structured messages between systems.",
+    example: "Two services use the same Avro schema so they agree on the fields in an order message.",
+    related: ["Serialization", "Kafka"]
+  },
+  {
+    term: "CI CD",
+    group: "Ci",
+    pronunciation: "/ˌsiː.aɪ ˌsiːˈdiː/",
+    type: "noun",
+    definition: "Automated practices for continuously building, testing, and delivering software changes.",
+    example: "A code change can automatically run tests and deploy to a test environment after review.",
+    related: ["Deployment", "Unit Testing"]
+  },
+  {
+    term: "Client Server Architecture",
+    group: "Cl",
+    pronunciation: "/ˈklaɪ.ənt ˈsɜː.vər ˈɑː.kɪ.tek.tʃər/",
+    type: "noun",
+    definition: "A model where a client requests information or work and a server processes the request and returns a response.",
+    example: "A web browser requests a product page and the server returns the page data.",
+    related: ["API", "Request Response"]
+  },
+  {
+    term: "Cloud Computing",
+    group: "Cl",
+    pronunciation: "/klaʊd kəmˈpjuː.tɪŋ/",
+    type: "noun",
+    definition: "Using computing resources such as servers, storage, and databases through the internet instead of owning the physical hardware.",
+    example: "A startup runs its website on rented cloud servers instead of maintaining its own data center.",
+    related: ["Scalability", "Container"]
+  },
+  {
+    term: "Container",
+    group: "Co",
+    pronunciation: "/kənˈteɪ.nər/",
+    type: "noun",
+    definition: "A lightweight package that includes an application and the runtime pieces it needs to run consistently.",
+    example: "A container lets the same application run in development, testing, and production with the same dependencies.",
+    related: ["Docker", "Deployment"]
+  },
+  {
+    term: "CRUD",
+    group: "Cr",
+    pronunciation: "/krʌd/",
+    type: "noun",
+    definition: "The four basic data operations: create, read, update, and delete.",
+    example: "A contact application lets users create, view, edit, and remove contacts.",
+    related: ["Database", "REST API"]
+  },
+  {
+    term: "Data Structure",
+    group: "Da",
+    pronunciation: "/ˈdeɪ.tə ˈstrʌk.tʃər/",
+    type: "noun",
+    definition: "A way of organizing data so that it can be stored, accessed, and changed efficiently.",
+    example: "A list keeps items in order, while a map associates each key with a value.",
+    related: ["Algorithm", "Array"]
+  },
+  {
+    term: "Database Index",
+    group: "Da",
+    pronunciation: "/ˈdeɪ.tə.beɪs ˈɪn.deks/",
+    type: "noun",
+    definition: "A database structure that speeds up finding rows without scanning every record.",
+    example: "An index on email addresses makes it faster to find a user by email.",
+    related: ["Database", "Performance"]
+  },
+  {
+    term: "Docker",
+    group: "Do",
+    pronunciation: "/ˈdɒk.ər/",
+    type: "noun",
+    definition: "A platform for building, packaging, and running applications in containers.",
+    example: "A developer can run a database locally through a Docker container without installing it directly.",
+    related: ["Container", "Deployment"]
+  },
+  {
+    term: "HTTP",
+    group: "Ht",
+    pronunciation: "/ˌeɪtʃ.tiː.tiːˈpiː/",
+    type: "noun",
+    definition: "The protocol commonly used by browsers, mobile apps, and services to communicate over the web.",
+    example: "A browser uses HTTP to request a web page from a server.",
+    related: ["REST API", "HTTP Status Code"]
+  },
+  {
+    term: "HTTP Status Code",
+    group: "Ht",
+    pronunciation: "/ˌeɪtʃ.tiː.tiːˈpiː ˈsteɪ.təs koʊd/",
+    type: "noun",
+    definition: "A numeric code in an HTTP response that indicates the outcome of a request.",
+    example: "A successful request commonly returns 200, while a missing page returns 404.",
+    related: ["HTTP", "API"]
+  },
+  {
+    term: "JSON",
+    group: "Js",
+    pronunciation: "/ˈdʒeɪ.sən/",
+    type: "noun",
+    definition: "A lightweight text format for representing structured data using keys, values, arrays, and objects.",
+    example: "An API can return a customer's name and email as a JSON object.",
+    related: ["Serialization", "API"]
+  },
+  {
+    term: "JWT",
+    group: "Jw",
+    pronunciation: "/ˌdʒeɪ dʌbəl.juːˈtiː/",
+    type: "noun",
+    definition: "A signed token format often used to carry identity and permission information between systems.",
+    example: "After signing in, a user may receive a JWT that is sent with later API requests.",
+    related: ["Authentication", "Authorization"]
+  },
+  {
+    term: "Load Balancer",
+    group: "Lo",
+    pronunciation: "/loʊd ˈbæl.ən.sər/",
+    type: "noun",
+    definition: "A component that distributes incoming traffic across multiple servers.",
+    example: "A load balancer sends website visitors to different available servers so no single server becomes overloaded.",
+    related: ["Scalability", "High Availability"]
+  },
+  {
+    term: "Logging",
+    group: "Lo",
+    pronunciation: "/ˈlɒɡ.ɪŋ/",
+    type: "noun",
+    definition: "Recording meaningful application activity so behavior and failures can be understood later.",
+    example: "An application logs an error message and request identifier when a payment fails.",
+    related: ["Monitoring", "Debugging"]
+  },
+  {
+    term: "Object Oriented Programming",
+    group: "Ob",
+    pronunciation: "/ˈɒb.dʒekt ˈɔː.ri.en.tɪd ˈprəʊ.ɡræm.ɪŋ/",
+    type: "noun",
+    definition: "A programming approach that organizes software around objects containing data and behavior.",
+    example: "A BankAccount object can store a balance and provide methods to deposit or withdraw money.",
+    related: ["Class", "Encapsulation"]
+  },
+  {
+    term: "ORM",
+    group: "Or",
+    pronunciation: "/ˌoʊ.ɑːrˈem/",
+    type: "noun",
+    definition: "A tool that maps application objects to database tables so developers can work with data through code.",
+    example: "An ORM can save a User object as a row in a users table.",
+    related: ["Repository", "Database"]
+  },
+  {
+    term: "Rate Limiting",
+    group: "Ra",
+    pronunciation: "/reɪt ˈlɪm.ɪ.tɪŋ/",
+    type: "noun",
+    definition: "Restricting how many requests a client can make in a fixed period of time.",
+    example: "An API may allow a user to make only 100 requests per minute.",
+    related: ["API Gateway", "Security"]
+  },
+  {
+    term: "Repository",
+    group: "Re",
+    pronunciation: "/rɪˈpɒz.ɪ.tər.i/",
+    type: "noun",
+    definition: "A code component that provides a focused way to read and write data from a storage system.",
+    example: "A user repository can provide methods to find or save users without exposing database details.",
+    related: ["ORM", "Database"]
+  },
+  {
+    term: "Request Response",
+    group: "Re",
+    pronunciation: "/rɪˈkwest rɪˈspɒns/",
+    type: "noun",
+    definition: "A communication pattern where one system sends a request and waits for another system to return a result.",
+    example: "A mobile app requests account details and the server returns the account information.",
+    related: ["HTTP", "Client Server Architecture"]
+  },
+  {
+    term: "SQL",
+    group: "Sq",
+    pronunciation: "/ˌes.kjuːˈel/",
+    type: "noun",
+    definition: "A language used to define, query, and change data in relational databases.",
+    example: "A SQL query can retrieve all orders placed by a customer.",
+    related: ["Database", "Database Index"]
+  },
+  {
+    term: "Spring Boot",
+    group: "Sp",
+    pronunciation: "/sprɪŋ buːt/",
+    type: "noun",
+    definition: "A Java framework that simplifies building standalone, production-ready applications.",
+    example: "A developer can create a web service with embedded server support and configuration defaults using Spring Boot.",
+    related: ["Bean", "Dependency Injection"]
+  },
+  {
+    term: "System Design",
+    group: "Sy",
+    pronunciation: "/ˈsɪs.təm dɪˈzaɪn/",
+    type: "noun",
+    definition: "The process of deciding how the parts of a software system work together to meet functional and quality requirements.",
+    example: "Designing a video platform includes deciding how uploads, storage, streaming, and notifications work together.",
+    related: ["Scalability", "Microservices"]
+  },
+  {
+    term: "Token",
+    group: "To",
+    pronunciation: "/ˈtəʊ.kən/",
+    type: "noun",
+    definition: "A piece of data used to represent identity, permission, or a temporary right to perform an action.",
+    example: "A user may send an access token with a request to prove they are signed in.",
+    related: ["JWT", "Authentication"]
+  },
+  {
+    term: "Topic",
+    group: "To",
+    pronunciation: "/ˈtɒp.ɪk/",
+    type: "noun",
+    definition: "A named channel where messages are published and from which consumers can read them.",
+    example: "A shopping system publishes order messages to an orders topic for other services to process.",
+    related: ["Kafka", "Producer", "Consumer"]
+  },
+  {
+    term: "Unit Testing",
+    group: "Un",
+    pronunciation: "/ˈjuː.nɪt ˈtes.tɪŋ/",
+    type: "noun",
+    definition: "Testing a small unit of code, such as a method or class, independently from the rest of the system.",
+    example: "A unit test checks that a price-calculation method returns the expected discount.",
+    related: ["CI CD", "Test Coverage"]
   }
 ];
