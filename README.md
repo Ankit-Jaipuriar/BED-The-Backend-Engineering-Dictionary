@@ -7,7 +7,7 @@ A standalone interactive technical dictionary. Open `index.html` in a browser to
 - Dictionary-style technical definitions with universal examples.
 - Alphabetical groups such as `Ab`, `Ac`, `Ad`, and `Co`.
 - Search, keyboard page turns, random term navigation, and animated page turns.
-- 33 foundational backend-engineering terms covering APIs, Java/Spring concepts, databases, Kafka, and distributed systems.
+- 62 foundational backend-engineering terms covering APIs, Java/Spring concepts, databases, Kafka, cloud, testing, and distributed systems.
 
 ## Add a new term
 
