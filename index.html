@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#182329" />
+    <title>The Backend Engineering Dictionary</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="masthead">
+        <a class="wordmark" href="#cover" aria-label="Open the cover">BED</a>
+        <div>
+          <p class="eyebrow">A growing personal reference</p>
+          <h1>The Backend Engineering Dictionary</h1>
+        </div>
+        <label class="search" for="term-search">
+          <span class="visually-hidden">Search terms</span>
+          <input id="term-search" type="search" placeholder="Search a term" autocomplete="off" />
+          <span aria-hidden="true">⌕</span>
+        </label>
+      </header>
+
+      <section class="dictionary-layout" aria-label="Dictionary book">
+        <nav class="alphabet" aria-label="Alphabetical navigation">
+          <p>Browse</p>
+          <div id="alphabet-links"></div>
+        </nav>
+
+        <section class="book-stage">
+          <div class="book-shadow" aria-hidden="true"></div>
+          <article id="book-page" class="book-page" aria-live="polite"></article>
+          <div class="book-spine" aria-hidden="true"></div>
+
+          <div class="book-controls">
+            <button id="previous-page" class="page-button" type="button">← Previous</button>
+            <p id="page-indicator">Cover</p>
+            <button id="next-page" class="page-button" type="button">Next →</button>
+          </div>
+        </section>
+
+        <aside class="quick-reference" aria-label="Quick reference">
+          <p class="eyebrow">Inside this edition</p>
+          <p id="term-count" class="term-count"></p>
+          <p class="quick-copy">Definitions are plain English. Examples are universal. Related terms help you keep exploring.</p>
+          <button id="random-term" class="text-button" type="button">Open a random term ↗</button>
+        </aside>
+      </section>
+
+      <section id="search-results" class="search-results" hidden>
+        <div class="search-results-heading">
+          <p class="eyebrow">Search results</p>
+          <button id="close-search" class="text-button" type="button">Clear search</button>
+        </div>
+        <div id="result-list"></div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Built to grow with your backend engineering journey.</span>
+      <span>Use ← and → keys to turn pages.</span>
+    </footer>
+
+    <script src="terms.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
